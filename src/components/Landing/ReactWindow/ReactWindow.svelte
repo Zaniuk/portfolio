@@ -1,15 +1,15 @@
 <pre>
 <code>
-import Welcome from ‘./Greetings’
+<span class="text-lblue">import</span> <span class="text-ulblue">Welcome</span> from <span class="text-green">‘./Greetings’</span>
 
-export default function App() {'{'}
-return (
+<span class="text-lblue">export</span> <span class="text-ulblue">default</span> <span class="text-purple">function</span> <span class="text-lblue">App() {'{'}</span>
+<span class="text-lblue">return (</span>
     
-    &lt;div className=”App” &gt;
-        &lt;h1 &gt; Hello, my name is Geronimo  &lt;/h1 &gt;
-        &lt;h2 &gt;I’m a Web Developer &lt;/h2 &gt;
-        &lt;Welcome message=”Welcome to my Site”/ &gt;
-    &lt;/div &gt;
-){'}'} 
+    <span class="text-pink">&lt;div</span> <span class="text-purple">className</span>=<span class="text-green">”App”</span><span class="text-pink">&gt;</span>
+        <span class="text-pink">&lt;h1&gt;</span>Hello, my name is Geronimo<span class="text-pink">&lt;/h1 &gt;</span>
+        <span class="text-pink">&lt;h2&gt;</span>I’m a Web Developer <span class="text-pink">&lt;/h2 &gt;</span>
+        <span class="text-pink">&lt;Welcome</span><span class="text-purple">message</span>=<span class="text-green">”Welcome to my Site”</span><span class="text-pink">/&gt;</span>
+    <span class="text-pink">&lt;/div &gt;</span>
+<span class="text-lblue">)}</span> 
 </code>
 </pre>
