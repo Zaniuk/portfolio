@@ -1,8 +1,7 @@
 <script>
     import ReactWindow from './ReactWindow/ReactWindow.svelte'
-    import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
 </script>
-<section use:scrollRef={'home'} >
+<section id="home">
     <h1>Welcome, $&#123;Visitor!&#125;</h1>
     <h1>Thank you for visiting my site</h1>
     <button>Run Welcome.js</button>

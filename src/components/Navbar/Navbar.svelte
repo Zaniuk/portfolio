@@ -3,7 +3,6 @@
         let list = document.getElementById("list")
         list.classList.toggle('hide')
     }
-    import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
 </script>
 
 <header>
@@ -11,11 +10,11 @@
         <button on:click={toggleMenu}>A</button>
         <div id="list" class="hide">
             <ul>
-                <li on:click={toggleMenu} use:scrollTo={'home'}>Home</li>
-                <li on:click={toggleMenu} use:scrollTo={'skills'}>Skills</li>
-                <li on:click={toggleMenu} use:scrollTo={'projects'}>Projects</li>
-                <li on:click={toggleMenu} use:scrollTo={'about'}>About Me</li>
-                <li on:click={toggleMenu} use:scrollTo={'contact'}>Contact</li>
+                <a class="text-lblue" on:click={toggleMenu} href="#home"><li>Home</li></a>
+                <a class="text-green" on:click={toggleMenu} href="#skills"><li>Skills</li></a>
+                <a class="text-pink" on:click={toggleMenu} href="#projects"><li>Projects</li></a>
+                <a class="text-purple" on:click={toggleMenu} href="#about"><li>About Me</li></a>
+                <a class="text-pink" on:click={toggleMenu} href="#contact"><li>Contact</li></a>
             </ul>
         </div>
     </nav>
@@ -24,8 +23,9 @@
 <style>
     header{
         position: sticky;
-        top: .5rem;
-        background-color:white;
+        min-height: 3rem;
+        top: 0;
+        background-color:black;
     }
     nav{
         display: flex;

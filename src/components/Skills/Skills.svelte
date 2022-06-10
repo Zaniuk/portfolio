@@ -1,8 +1,8 @@
 <script>
 import Card from './Card/Card.svelte'
-import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
+
 </script>
-<section use:scrollRef={'skills'} >
+<section id="skills">
 <pre><code>
 <h1>console.log('My Skills');</h1>
 </code></pre>

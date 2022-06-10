@@ -1,8 +1,8 @@
 <script>
     import Project from './Project/Project.svelte'
-    import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
+    
 </script>
-<section use:scrollRef={'projects'} >
+<section id="projects">
 <pre><code>
 <h1>> npm run showMyProjects</h1>
 </code></pre>
