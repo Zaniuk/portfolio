@@ -16,5 +16,8 @@
 		"eslint-plugin-svelte3": "^4.0.0",
 		"svelte": "^3.44.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-scrolling": "^1.2.1"
+	}
 }
