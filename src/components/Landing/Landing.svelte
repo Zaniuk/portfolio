@@ -26,16 +26,13 @@
     }
     article img{
         height: 24px;
-        justify-self: flex-start;
-        display: flex;
     }
     #react-window{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
     }
     #react-window span{
-
+        margin: 0 auto;
     }
     article{
         
