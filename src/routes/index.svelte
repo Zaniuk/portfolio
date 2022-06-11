@@ -6,7 +6,9 @@
     import Skills from '../components/Skills/Skills.svelte'
     import About from '../components/About/About.svelte'
     import Contact from '../components/Contact/Contact.svelte';
+    
 </script>
+
 <Navbar/>
 <Landing/>
 <Skills/>

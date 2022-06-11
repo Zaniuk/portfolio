@@ -9,6 +9,7 @@
     --ulblue: #7BCFCE;
     --bg-dark: #16161E;
     --bg-light: #1A1B26 ;
+    --bg-window:rgba(217, 217, 217, .03);
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -51,4 +52,7 @@ body{
 
 .bg-light{
     background-color: var(--bg-light);
+}
+.bg-window{
+    background-color: var(--bg-window);
 }

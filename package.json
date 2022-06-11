@@ -10,11 +10,16 @@
 		"lint": "eslint ."
 	},
 	"devDependencies": {
+		"@loscrackitos/svelte-typed-js": "^0.1.3",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"eslint": "^8.16.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"svelte": "^3.44.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"animate.css": "^4.1.1",
+		"typed.js": "^2.0.12"
+	}
 }
