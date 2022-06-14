@@ -27,6 +27,7 @@
         top: 0;
         background-color:black;
     }
+    
     nav{
         display: flex;
         flex-direction: column;
