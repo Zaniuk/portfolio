@@ -37,13 +37,13 @@
     }
     @media (max-width: 375px) {
         article{
-            font-size: .7rem;
+            font-size: 1rem;
             width: 100%;
         }
     }
     @media (max-width: 310) {
         article{
-            font-size: .55rem;
+            font-size: .9rem;
             width: 100%;
         }
     }
