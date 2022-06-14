@@ -25,7 +25,7 @@
         position: sticky;
         min-height: 3rem;
         top: 0;
-        background-color:black;
+        background-color: #16161E;
     }
     
     nav{
