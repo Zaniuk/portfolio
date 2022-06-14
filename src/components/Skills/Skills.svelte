@@ -3,13 +3,32 @@ import Card from './Card/Card.svelte'
 
 </script>
 <section id="skills">
-<pre><code>
-<h1>console.log('My Skills');</h1>
-</code></pre>
-        <Card technology={'NodeJS'}/>
-        <Card technology={'React'}/>
-        <Card technology={'MongoDB'}/>
-        <Card technology={'ExpressJS'}/>
-        <Card technology={'JavaScript'}/>
-        <Card technology={'HTML/CSS'}/>
+
+<h1><span class="text-pink">console</span>.<span class="text-lblue">log</span><span class="text-ulblue">(</span><span class="text-green">'My Skills'</span><span class="text-ulblue">)</span>;</h1>
+
+<div>
+        <Card color1={'text-green'}  technology={'NodeJS'}/>
+        <Card color1={'text-purple'}  technology={'React'}/>
+        <Card color1={'text-ulblue'}  technology={'MongoDB'}/>
+        <Card color1={'text-lblue'}  technology={'ExpressJS'}/>
+        <Card color1={'text-yellow'}  technology={'JavaScript'}/>
+        <Card color1={'text-pink'}  technology={'HTML/CSS'}/>
+</div>
 </section>
+<style>
+div{
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        
+}
+h1{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 4rem;
+}
+</style>
