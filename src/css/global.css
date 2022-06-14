@@ -21,7 +21,18 @@ body{
     margin: 0;
     
 }
-
+.border-pink{
+    border: solid 2px var(--pink);
+}
+.border-lblue{
+    border: solid 2px var(--lblue);
+}
+.border-green{
+    border: solid 2px var(--green);
+}
+.border-purple{
+    border: solid 2px var(--purple);
+}
 .text-white{
     color: var(--white);
 }
