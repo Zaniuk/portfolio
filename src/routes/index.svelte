@@ -11,7 +11,7 @@
 
 <Navbar/>
 <Landing/>
-<Skills/>
 <Projects/>
+<Skills/>
 <About/>
 <Contact/>
