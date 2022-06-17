@@ -55,13 +55,13 @@
     }
     @media (max-width: 375px) {
         article{
-            font-size: .7rem;
+            
             width: 95vw;
         }
     }
     @media (max-width: 310) {
         article{
-            font-size: .55rem;
+            
             width: 95vw;
         }
     }
