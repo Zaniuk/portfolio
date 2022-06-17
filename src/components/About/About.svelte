@@ -14,8 +14,8 @@
         </div>
         
         <div class="window">
-            <h1>> pyhton whyMe.py</h1>
-        <Window title={'whyMe.py'} text={"Soy una persona muy autodidacta, que no le cuesta preguntar o ayudar a sus compañeros. Me considero un muy buen compañero de equipo, suelo tomar mucho las iniciativas, aprendo rápido, tengo conocimientos de SCRUM y KANBAN. Me apasiona estar costantemente aprendiendo y resolviendo problemas y todo lo que hago lo hago con la pasión y la ambición de crecer como persona y como profesional. literalmente como descubrí "}/>
+            <h1>> python whyMe.py</h1>
+        <Window title={'whyMe.py'} text={"Soy una persona muy autodidacta, que no le cuesta preguntar o ayudar a sus compañeros. Me considero un muy buen compañero de equipo, suelo tomar mucho las iniciativas, aprendo rápido, tengo conocimientos de SCRUM y KANBAN. Me apasiona estar costantemente aprendiendo y resolviendo problemas y todo lo que hago lo hago con la pasión y la ambición de crecer como persona y como profesional."}/>
         </div>
     </div>
 </section>
@@ -32,6 +32,7 @@
     .about-windows{
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
     }
     .window{
         padding: .5rem;
