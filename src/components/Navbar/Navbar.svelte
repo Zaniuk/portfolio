@@ -7,7 +7,9 @@
 
 <header>
     <nav>
-        <button on:click={toggleMenu}>A</button>
+        <a id="menu-button" on:click={toggleMenu}>
+            <img src="menubutton.svg" alt="">
+        </a>
         <div id="list" class="hide">
             <ul>
                 <a class="text-lblue" on:click={toggleMenu} href="#home"><li>Home</li></a>
@@ -33,7 +35,7 @@
         display: flex;
         flex-direction: column;
     }
-    button{
+    #menu-button{
         align-self: flex-end;
     }
     .hide{
@@ -50,6 +52,9 @@
         list-style-type: none;
         font-size: 1.5em;
         padding-bottom: 6rem;
+    }
+    ul a{
+        text-decoration: none;
     }
     /* @media screen and (min-width:768px){
 
