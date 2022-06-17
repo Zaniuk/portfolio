@@ -25,9 +25,11 @@
         display: flex;
         text-align: center;
         border-radius: 8px 8px 0px 0px;
+        position: relative;
     }
     #react-window span{
-        margin: 0 auto;
+        position: absolute;
+        left: 40%;
     }
     article{
         width: 380px;
