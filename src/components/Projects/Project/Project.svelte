@@ -5,6 +5,10 @@
 
 <div class="project">
     <h1>{project}</h1>
+    <div id="project-window" class="bg-light">
+        <img src='dots.svg' alt="">
+        <span>Project</span>
+    </div>
     <img src="https://i.picsum.photos/id/356/200/200.jpg?hmac=Pd7TXMbO4gSTwhtmub1DcSo1vPpeCVRsuY_BRE_llmU" alt="random">
     <div class="buttons">
         <a class="text-lblue" href={linkGithub} target="_blank">Github</a>
@@ -22,6 +26,21 @@
         width:100%;
         aspect-ratio: 1;
     }
+    #project-window{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    #project-window img{
+        all: unset;
+        height: 20px;
+    }
+    #project-window span{
+        font-size: .8rem;
+        position: absolute;
+        left: 40%;
+    }
     .buttons{
         display: flex;
         flex-flow: row nowrap;
@@ -32,4 +51,5 @@
         padding-bottom: .5rem;
         text-decoration: none;
     }
+    
 </style>
