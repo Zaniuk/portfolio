@@ -22,7 +22,7 @@ strings="{[`
 <style>
     pre{
         height: 130px;
-        padding-left: 1rem;
+        padding-left: .5rem;
     }
     @media (max-width: 375px) {
         pre{
