@@ -25,6 +25,7 @@
         position: sticky;
         min-height: 3rem;
         top: 0;
+        z-index: 999;
         background-color: #16161E;
     }
     
