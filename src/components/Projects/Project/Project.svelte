@@ -1,6 +1,8 @@
 <script>
     export let project;
     export let linkGithub;
+    export let linkDemo;
+    export let img;
 </script>
 
 <div class="project">
@@ -9,11 +11,11 @@
         <img src='dots.svg' alt="">
         <span>Project</span>
     </div>
-    <img src="https://i.picsum.photos/id/356/200/200.jpg?hmac=Pd7TXMbO4gSTwhtmub1DcSo1vPpeCVRsuY_BRE_llmU" alt="random">
+    <img src={img} alt="random">
     <div class="buttons">
         <a class="text-lblue" href={linkGithub} target="_blank">Github</a>
-        <a class="text-green" href="...">About</a>
-        <a class="text-pink" href="...">Demo</a>
+        <!-- <a class="text-green" href="...">About</a> -->
+        <a class="text-pink" href={linkDemo} target="_blank">Demo</a>
     </div>
 </div>
 <style>
@@ -21,6 +23,7 @@
         max-width: 400px;
         display: flex;
         flex-flow: column wrap;
+        
     }
     img{
         width:100%;
@@ -31,6 +34,8 @@
         display: flex;
         align-items: center;
         position: relative;
+        border-bottom: 1px solid #20212e;
+        border-radius: .5rem .5rem 0 0;
     }
     #project-window img{
         all: unset;
