@@ -43,6 +43,12 @@
             width: 100%;
         }
     }
+    @media (max-width: 367px) {
+        article{
+            height: max-content;
+        }
+    }
+    
     @media (max-width: 310) {
         article{
             font-size: .9rem;
