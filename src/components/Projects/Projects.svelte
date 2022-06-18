@@ -7,9 +7,8 @@
 <h1>> npm run showMyProjects</h1>
 </code></pre>
 <div id="projects-container">
-    <Project project={'Blog Front-End'} linkGithub={'https://github.com/Zaniuk/Blog'} />
-    <Project project={'Blog Back-End'} linkGithub={'https://github.com/Zaniuk/Blog-backend'} />
-    <Project project={'The Wine Valley'} linkGithub={'https://github.com/Zaniuk/TiendaVinos'} />
+    <Project project={'Blog Back-End'} linkGithub={'https://github.com/Zaniuk/Blog-backend'} linkDemo={'https://ancient-badlands-91189.herokuapp.com/api/posts'} img={'blog.png'} />
+    <Project project={'The Wine Valley'} linkGithub={'https://github.com/Zaniuk/TiendaVinos'} linkDemo={'https://winevalley.pages.dev/'}  img={'wine.png'} />
 </div>
 </section>
 <style>
