@@ -3,9 +3,10 @@
     export let linkGithub;
     export let linkDemo;
     export let img;
+    export let id;
 </script>
 
-<div class="project">
+<div class="project" id={id}>
     <h1>{project}</h1>
     <div id="project-window" class="bg-light">
         <img src='dots.svg' alt="">
