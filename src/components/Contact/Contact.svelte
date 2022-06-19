@@ -3,22 +3,22 @@
 </script>
 <section id="contact">
     <h1><span class="text-purple">></span> <span class="text-green">node</span> <span class="text-pink">contact</span>.<span class="text-yellow">js</span></h1>
-    <form>
+    <form action="https://formsubmit.co/geronimo.zaniuk2000@gmail.com" method="POST">
         <span>
             <b class="text-pink">Name</b>
-            <input class="border-pink caret-pink"  type="text" name="" id="name-input" placeholder="Show me how much awsome your name is!!">
+            <input class="border-pink caret-pink"  type="text" name="Name" id="name-input" placeholder="Show me how much awsome your name is!!">
         </span>
         <span>
             <b class="text-green">Email</b>
-            <input class="border-green caret-green"  type="email" name="" id="email-input" required placeholder="Put a beatiful email here...">
+            <input class="border-green caret-green"  type="email" name="Email" id="email-input" required placeholder="Put a beatiful email here...">
         </span>
         <span>
             <b class="text-lblue">Company (optional)</b>
-            <input class="border-lblue caret-lblue"  type="text" name="" id="company-input" placeholder="Talking from a company? 👀">
+            <input class="border-lblue caret-lblue"  type="text" name="Company" id="company-input" placeholder="Talking from a company? 👀">
         </span>
         <span>
             <b class="text-purple">Message</b>
-            <textarea class="border-purple caret-purple" name="" id="message-input" cols="30" rows="10" required></textarea>
+            <textarea class="border-purple caret-purple" name="Message" id="message-input" cols="30" rows="10" required></textarea>
         </span>
         <div class="send-button">
             <button class="text-lblue border-lblue">Send</button>
