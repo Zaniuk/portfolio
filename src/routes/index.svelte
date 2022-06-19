@@ -8,7 +8,9 @@
     import Contact from '../components/Contact/Contact.svelte';
     
 </script>
-
+<svelte:head>
+    <title>Geronimo Zaniuk's Portfolio</title>
+</svelte:head>
 <Navbar/>
 <Landing/>
 <Projects/>
