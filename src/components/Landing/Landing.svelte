@@ -5,8 +5,8 @@
 
 <section id="home">
 
-    <h1 ><span class="text-lblue">Welcome,</span><span class="text-pink">$&#123;</span><span class="text-lblue">'</span><span class="text-green">Visitor!</span><span class="text-lblue">'</span><span class="text-pink">&#125;</span></h1>
-    <h1><span class="text-pink">Thank</span> <span class="text-ulblue">you</span> <span class="text-pink">for</span> <span class="text-lblue">visiting </span><span class="text-green">my site</span></h1>
+    <h1 class="slide-in-fwd-top" ><span class="text-lblue">Welcome,</span><span class="text-pink">$&#123;</span><span class="text-lblue">'</span><span class="text-green">Visitor!</span><span class="text-lblue">'</span><span class="text-pink">&#125;</span></h1>
+    <h1 class="slide-in-fwd-top-delay-4"><span class="text-pink">Thank</span> <span class="text-ulblue">you</span> <span class="text-pink">for</span> <span class="text-lblue">visiting </span><span class="text-green">my site</span></h1>
     <div>
         
         <article class="bg-light">
