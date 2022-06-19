@@ -28,7 +28,7 @@
             <textarea class="border-purple caret-purple" name="Message" id="message-input" cols="30" rows="10" required></textarea>
         </span>
         <div class="send-button">
-            <button id="sendButton" class="text-lblue border-lblue">Send</button>
+            <input type="submit" id="sendButton" class="text-lblue border-lblue" value="Send">
         </div>
     </form>
 </section>
@@ -71,8 +71,7 @@
         color: white;
         background-color: #1A1B26;
         border-radius: .3rem;
-        padding: .5rem;
-        height: 1.5rem;
+        padding: 1rem 2rem;
     }
     textarea{
         color: white;
@@ -89,14 +88,14 @@
         justify-content: center;
         margin-top: 1rem;
     }
-    .send-button button{
+    .send-button input{
         background-color: #1A1B26;
         padding: .5rem 2rem;
         font-size: 1.2rem;
         border-radius: .5rem;
         transition: 250ms ease-in-out;
     }
-    .send-button button:hover{
+    .send-button input:hover{
         background-color: var(--lblue);
         color: white;
     }
