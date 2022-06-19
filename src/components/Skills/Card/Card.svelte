@@ -3,8 +3,9 @@
     export let color1;
     export let img;
     export let exc;
+    export let id;
 </script>
-<article>
+<article id={id}>
     <h1 class={color1}>{technology}</h1>
     <div class="img-wrapper bg-light">
         <img class={exc} src={img} alt="random">
