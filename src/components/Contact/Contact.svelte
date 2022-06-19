@@ -1,9 +1,13 @@
 <script>
-    
+    const form = document.getElementById('contactForm')
+    const sendButton = document.getElementById('sendButton')
+    sendButton.addEventListener('click', () => {
+        form.submit()
+    })
 </script>
 <section id="contact">
     <h1><span class="text-purple">></span> <span class="text-green">node</span> <span class="text-pink">contact</span>.<span class="text-yellow">js</span></h1>
-    <form action="https://formsubmit.co/geronimo.zaniuk2000@gmail.com" method="POST">
+    <form id="contactForm" action="https://formsubmit.co/geronimozaniuk2000@gmail.com" method="POST">
         <input type="text" name="_honey" style="display:none;"  >
         <input type="hidden" name="_captcha" value="false">
         <!-- <input type="hidden" name="_next" value="https://portfolio-f01.pages.dev/sucess"> -->
@@ -24,7 +28,7 @@
             <textarea class="border-purple caret-purple" name="Message" id="message-input" cols="30" rows="10" required></textarea>
         </span>
         <div class="send-button">
-            <button class="text-lblue border-lblue">Send</button>
+            <button id="sendButton" class="text-lblue border-lblue">Send</button>
         </div>
     </form>
 </section>
