@@ -6,11 +6,11 @@
         <input type="hidden" name="_next" value="https://portfolio-f01.pages.dev/sucess">
         <span>
             <b class="text-pink">Name</b>
-            <input class="border-pink caret-pink"  type="text" name="Name" id="name-input" placeholder="Show me how much awsome your name is!!">
+            <input class="border-pink caret-pink"  type="text" name="Name" id="name-input" placeholder="Show me how much awsome your name is! ✨ ">
         </span>
         <span>
             <b class="text-green">Email</b>
-            <input class="border-green caret-green"  type="email" name="Email" id="email-input" required placeholder="Put a beatiful email here...">
+            <input class="border-green caret-green"  type="email" name="Email" id="email-input" required placeholder="Put a beatiful email here... 🔥">
         </span>
         <span>
             <b class="text-lblue">Company (optional)</b>
@@ -18,7 +18,7 @@
         </span>
         <span>
             <b class="text-purple">Message</b>
-            <textarea class="border-purple caret-purple" name="Message" id="message-input" cols="30" rows="10" required></textarea>
+            <textarea placeholder="Do you have something interesing to say?☀️" class="border-purple caret-purple" name="Message" id="message-input" cols="30" rows="10" required></textarea>
         </span>
         <div class="send-button">
             <input type="submit" id="sendButton" class="text-lblue border-lblue" value="Send">
