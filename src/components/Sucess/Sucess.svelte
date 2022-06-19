@@ -1,5 +1,5 @@
 <section>
-        <img src="sucess.png" alt="">
+        <img class="scale-up-center" src="sucess.png" alt="">
         <h1>Sucess!</h1>
         <h2>Your message has successfully been sent.</h2>
         <p>I will contact you soon as possible.</p>
@@ -14,4 +14,5 @@
     img{
         width: 100px;
     }
+    
 </style>
