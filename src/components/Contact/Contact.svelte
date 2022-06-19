@@ -4,6 +4,9 @@
 <section id="contact">
     <h1><span class="text-purple">></span> <span class="text-green">node</span> <span class="text-pink">contact</span>.<span class="text-yellow">js</span></h1>
     <form action="https://formsubmit.co/geronimo.zaniuk2000@gmail.com" method="POST">
+        <input type="text" name="_honey" style="display:none;"  >
+        <input type="hidden" name="_captcha" value="false">
+        <!-- <input type="hidden" name="_next" value="https://portfolio-f01.pages.dev/sucess"> -->
         <span>
             <b class="text-pink">Name</b>
             <input class="border-pink caret-pink"  type="text" name="Name" id="name-input" placeholder="Show me how much awsome your name is!!">
