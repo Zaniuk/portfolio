@@ -1,12 +1,13 @@
 <script>
+    export let date, title,img, desc
     const postDate = new Date()
     const postDateStr = `${postDate.getDate()}/${postDate.getMonth()}/${postDate.getFullYear()}`
 </script>
 <div class="post-card">
-    <p class="date">{postDateStr}</p>
-    <img src="https://picsum.photos/200" alt="">
-    <h1>An Amazing Article</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quos quam molestiae nulla.</p>
+    <p class="date">{date}</p>
+    <img src={img} alt="">
+    <h1>{title}</h1>
+    <p>{desc}.</p>
 </div>
 
 <style>
@@ -16,10 +17,14 @@
         border-radius: .5rem;
     }
 .post-card{
+    width: 100%;
     display: flex;
     flex-flow: column nowrap;
 }
 h1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 1;
     font-size: 1.3rem;
 }
 </style>
