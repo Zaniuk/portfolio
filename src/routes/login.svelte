@@ -20,9 +20,9 @@
                 const body = `{"email":"${email.value},"password":"${password.value}"}`
                 let options = {
                     method: 'POST',
+                    mode: 'no-cors',
                     headers: {
-                        'Content-Type': 'application/json',
-                        'Access-Control-Allow-Origin': '*'
+                        'Content-Type': 'application/json'
                     },
                     body: body
                 };
