@@ -235,3 +235,7 @@ section{
     font-size: .75rem;
     color: gray;
 }
+
+.bytemd {
+  height: calc(100vh - 200px);
+}
