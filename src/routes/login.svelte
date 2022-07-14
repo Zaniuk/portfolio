@@ -1,7 +1,7 @@
 <script>
-    import {
-        onMount
-    } from 'svelte'
+    import { onMount } from 'svelte'
+    import { goto } from '$app/navigation';
+
 
 
 
@@ -17,21 +17,28 @@
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: '{"email":"geroza49@gmail.com","password":"callofdutymw3"}'
+                body: `{"email":"${email.value}","password":"${password.value}"}`
             };
             const data = await fetch('https://portfolio-backend-production-0477.up.railway.app/login',
-                options)
-            return await data.json()
+                options).then(data => data.json())
+            return await data
         }
-        submit.addEventListener('click', async () => {
-            console.log(await fetchData())
+        submit.addEventListener('click', async (e) => {
+            e.preventDefault()
+            fetchData().then(data => {
+                const token = data.token
+                if(token){
+                    sessionStorage.setItem('token', token)
+                    goto('/create')
+                }else{
+                    console.error('error')
+                }
+            })
         })
 
     })
 </script>
-<!-- {#await login then token}
-    {console.log(token)}
-{/await} -->
+
 <form>
     <label>
         Email
