@@ -15,7 +15,7 @@
 <div class="posts">
     {#await postsList then posts}
         {#each posts as post }
-            <PostCard date={createDate(post.createdAt)} title={post.title} img={post.img} desc={post.body} />
+            <PostCard date={createDate(post.createdAt)} title={post.title} img={post.img} desc={post.desc} />
         {/each}
     {/await}
 </div>
