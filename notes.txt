@@ -1,0 +1,1 @@
+-Use regex to internally remove all text in url after # EX: blog/blog-post-title#about > blog/blog-post-title
