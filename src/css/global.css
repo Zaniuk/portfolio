@@ -238,7 +238,19 @@ section{
 }
 
 .bytemd {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 175px);
+}
+.bytemd{
+  background-color: var(--bg-dark);
+  color: white;
+}
+.bytemd-toolbar{
+  color: white;
+  background-color: var(--bg-dark);
+}
+.CodeMirror{
+  color: white;
+  background-color: var(--bg-dark);
 }
 .markdown-body{
   max-width: 900px;
