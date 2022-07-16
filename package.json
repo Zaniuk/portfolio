@@ -20,7 +20,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@bytemd/plugin-gfm": "^1.17.1",
 		"animate.css": "^4.1.1",
+		"bytemd": "^1.17.1",
+		"crypto-js": "^4.1.1",
 		"typed.js": "^2.0.12"
 	}
 }
