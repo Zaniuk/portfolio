@@ -17,6 +17,7 @@
                 <a class="text-green" on:click={toggleMenu} href="#skills"><li>Skills</li></a>
                 <a class="text-purple" on:click={toggleMenu} href="#about"><li>About Me</li></a>
                 <a class="text-pink" on:click={toggleMenu} href="#contact"><li>Contact</li></a>
+                <a class="text-lblue" on:click={toggleMenu} href="/blog"><li>Blog</li></a>
             </ul>
         </div>
     </nav>
