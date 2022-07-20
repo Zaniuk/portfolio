@@ -1,13 +1,16 @@
 <script>
     const postDate = new Date()
-    export let fPostImg, fPostTitle, fPostDesc;
+    export let fPostImg, fPostTitle, fPostDesc, fPostSlug;
     const postDateStr = `${postDate.getDate()}/${postDate.getMonth()}/${postDate.getFullYear()}`
+    
 </script>
 <div class="featured-post">
-    <img src={fPostImg} alt="Blank image">
+    <img src={fPostImg} alt="Blank">
     <div class="post-info">
         <p class="date">{postDateStr}</p>
-        <h1>{fPostTitle}</h1>
+        <a href={fPostSlug}>
+            <h1>{fPostTitle}</h1>
+        </a>
         <p>{fPostDesc}</p>
     </div>
 </div>
@@ -31,5 +34,8 @@
         .featured-post{
             flex-flow: column;
         }
+    }
+    a{
+        all: unset;
     }
 </style>
